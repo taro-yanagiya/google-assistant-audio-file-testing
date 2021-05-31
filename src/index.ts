@@ -1,6 +1,6 @@
 import GoogleAssistant from "./GoogleAssistant";
 
-const deviceCredentials = require("../devicecredentials.json");
+import deviceCredentials from "../test-credentials.json";
 
 const DEVICE_MODEL_ID = "test-speaker-9d9d7-speaker-cwfymv";
 const DEVICE_INSTANCE_ID = "test-speaker-1";
