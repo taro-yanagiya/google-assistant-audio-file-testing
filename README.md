@@ -1,4 +1,4 @@
-# Assistant Audio File Testing
+# Google Assistant Audio File Testing
 
 ## Getting started
 
@@ -33,5 +33,5 @@ yarn
 yarn start
 ```
 
-11. If assistant says you need to allow personal results, open Google Home app on your smartphone and check notifications in the app. Once it's allowed, you should be able to start testing!
+11. If assistant says you need to allow personal results, open Google Home app on your smartphone and check notifications in the app. Once it's allowed, you'll be able to start testing!
 12. Modify index.ts and write your tests.
