@@ -28,12 +28,12 @@ node generate-credentials.js /path/to/credentials.json
 googlesamples-assistant-devicetool --project-id PROJECT_ID register-device --device 'my-device-identifier' \ --model 'my-model-identifier' \ --nickname 'My Assistant Light'
 ```
 
-10. Run sample
+10. Install dependencies and run sample
 
 ```bash
 yarn
 yarn start
 ```
 
-11. If assistant says you need to allow personal results, open Google Home app on your smartphone and check notifications in the app. Once it's allowed, you'll be able to start testing!
+11. If the assistant says you need to allow personal results, open Google Home app on your smartphone and check notifications in the app. Once it's allowed, you'll be able to start testing!
 12. Modify index.ts and write your tests.
