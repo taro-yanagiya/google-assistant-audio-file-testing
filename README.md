@@ -1,4 +1,4 @@
-# Assistant Audio File Testing
+# Google Assistant Audio File Testing
 
 ## Getting started
 
@@ -20,18 +20,20 @@ node generate-credentials.js /path/to/credentials.json
 8. Copy and paste the URL and enter the authorization code. You will see a response
    similar to the following:
 
-`Saved user credentials in "test-credentials.json"` 9. Register a new device instance using [googlesamples-assistant-devicetool](https://github.com/googlesamples/assistant-sdk-python/tree/master/google-assistant-sdk) and update DEVICE_MODEL_ID and DEVICE_INSTANCE_ID constants in index.ts.
+`Saved user credentials in "test-credentials.json"`
+
+9. Register a new device instance using [googlesamples-assistant-devicetool](https://github.com/googlesamples/assistant-sdk-python/tree/master/google-assistant-sdk) and update DEVICE_MODEL_ID and DEVICE_INSTANCE_ID constants in index.ts.
 
 ```bash
 googlesamples-assistant-devicetool --project-id PROJECT_ID register-device --device 'my-device-identifier' \ --model 'my-model-identifier' \ --nickname 'My Assistant Light'
 ```
 
-10. Run sample
+10. Install dependencies and run sample
 
 ```bash
 yarn
 yarn start
 ```
 
-11. If assistant says you need to allow personal results, open Google Home app on your smartphone and check notifications in the app. Once it's allowed, you should be able to start testing!
+11. If the assistant says you need to allow personal results, open Google Home app on your smartphone and check notifications in the app. Once it's allowed, you'll be able to start testing!
 12. Modify index.ts and write your tests.
