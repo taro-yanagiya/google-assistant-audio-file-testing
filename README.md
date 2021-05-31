@@ -21,6 +21,7 @@ node generate-credentials.js /path/to/credentials.json
    similar to the following:
 
 `Saved user credentials in "test-credentials.json"`
+
 9. Register a new device instance using [googlesamples-assistant-devicetool](https://github.com/googlesamples/assistant-sdk-python/tree/master/google-assistant-sdk) and update DEVICE_MODEL_ID and DEVICE_INSTANCE_ID constants in index.ts.
 
 ```bash
