@@ -1,0 +1,47 @@
+{
+  "scripts": {
+    "start": "cross-env NODE_NO_WARNINGS=1 ts-node src/index.ts"
+  },
+  "name": "actions-on-google-audio-file-testing",
+  "author": "Taro Yanagiya",
+  "version": "0.0.1",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.3.2",
+    "@grpc/proto-loader": "^0.6.1",
+    "async": "^1.5.2",
+    "chalk": "^4.1.1",
+    "google-auth-library": "^7.0.4",
+    "google-proto-files": "^2.4.0",
+    "google-protobuf": "^3.3.0",
+    "grpc": "^1.24.9",
+    "homedir": "^0.6.0",
+    "promise.prototype.finally": "^3.1.1",
+    "protobufjs": "^6.11.2",
+    "resolve": "1.5.0",
+    "speaker": "git+https://github.com/taromi22/node-speaker.git",
+    "stdio": "^2.1.1",
+    "wav": "^1.0.2",
+    "wavefile": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^3.19.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-semistandard": "^11.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jsdoc": "^3.5.5",
+    "jsdoc-baseline": "https://github.com/hegemonic/baseline/tarball/master",
+    "nyc": "^15.1.0",
+    "prettier": "2.3.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4",
+    "winston": "2.2.0"
+  }
+}

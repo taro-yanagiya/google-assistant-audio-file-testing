@@ -1,0 +1,4 @@
+node_modules/*
+devicecredentials.json
+wav/
+.DS_Store
